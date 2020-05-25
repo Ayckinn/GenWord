@@ -1,12 +1,11 @@
 #! usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
-# =================================================
-# =                GENWORD - V1.0                 =
-# = Generate all possible combinaisons for a word =
-# =                                               =
-# =               ©2020 - Ayckinn                 =
-# =================================================
+# ==================================================
+# =                GENWORD - V1.0                  =
+# = Generate all possibles combinaitons for a word =
+# =               ©2020 - Ayckinn                  =
+# ==================================================
 
 from os import system
 from itertools import permutations
@@ -27,8 +26,8 @@ def random_word():
 
     print()
     print('\n'.join(word_list))
-    print("\nThere are \033[1;31m{}\033[1;m letters in your word and \033[1;32m{}"
-          "\033[1;m combinations\n".format(len_word, counter))
+    print("\nThere are \033[1;31m{}\033[1;m letters in your word and"
+          " \033[1;32m{}\033[1;m combinations\n".format(len_word, counter))
 
 # ============================================================================
 random_word()

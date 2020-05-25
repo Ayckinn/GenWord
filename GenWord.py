@@ -13,11 +13,11 @@ from itertools import permutations
 
 system('clear')
 
-# /////////////////////////////////////////////////////////////////////////////
-
+# ============================================================================
 user_word = input("\nPlease choose a word : ")
 len_word = len(user_word)
 
+# ----------------------------------------------------------------------------
 def random_word():
     word_list = [''.join(x) for x in permutations(user_word, len_word)]
 
@@ -27,10 +27,8 @@ def random_word():
 
     print()
     print('\n'.join(word_list))
-    print("\nIl y a \033[1;31m{}\033[1;m lettres dans le mot et \033[1;32m{}\033[1;m combinaisons possibles\n".format(len_word, counter))
+    print("\nThere are \033[1;31m{}\033[1;m letters in your word and \033[1;32m{}"
+          "\033[1;m combinations\n".format(len_word, counter))
 
-# /////////////////////////////////////////////////////////////////////////////
+# ============================================================================
 random_word()
-
-# /////////////////////////////////////////////////////////////////////////////
-# TODO : Create an external file to store results for each word

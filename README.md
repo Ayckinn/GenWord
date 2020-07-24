@@ -5,5 +5,9 @@ Generate all words possibilities with your word
 
 ### Changelog
 ---
-Version 1.0 - 08.04.2020
+Version 2.0 - July 24' 2020
+- Refactoring code
+- Update screenshot
+
+Version 1.0 - April 08' 2020
 - Initial release
